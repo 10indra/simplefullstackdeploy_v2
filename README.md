@@ -19,6 +19,19 @@ User → HTTPS → Reverse Proxy → Nginx → PHP-FPM → Laravel → MySQL
 - Security hardening (UFW + Fail2ban)
 
 ---
+## 🌍 Access Apps
+
+Add hosts entry:
+- 127.0.0.1 app1.local
+- 127.0.0.1 app2.local
+- 127.0.0.1 app3.local
+
+Open browser:
+- https://app1.local
+- https://app2.local
+- https://app3.local
+
+---
 
 ## 📦 Architecture
 
